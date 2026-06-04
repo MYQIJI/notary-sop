@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知产盾™ · 开源基础版</title>
+    <style>
+        :root {
+            --bg-deep: #0a1a0f;
+            --bg-card: rgba(15, 35, 20, 0.55);
+            --border-glow: rgba(160, 220, 180, 0.3);
+            --text-primary: #e0f0e0;
+            --text-secondary: #a0c8b0;
+            --accent-green: #80e0a0;
+            --accent-purple: #c0a0e0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .container { max-width: 650px; }
+        h1 { font-size: 2.6em; color: var(--accent-green); margin-bottom: 10px; }
+        .subtitle { color: var(--text-secondary); margin-bottom: 30px; font-size: 1.1em; }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            border: 1px solid var(--accent-green);
+            border-radius: 6px;
+            color: var(--accent-green);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .links a:hover { background: rgba(128, 224, 160, 0.1); }
+        .footer { margin-top: 30px; color: #5a7a65; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🛡️ 知产盾™</h1>
+    <p class="subtitle">一份SOP + 自动化工具 = 10分钟为你的数字资产装上法律护甲</p>
+    <div class="links">
+        <a href="SOP-开源版.md">📖 阅读开源版SOP</a>
+        <a href="README.md">📄 项目介绍</a>
+        <a href="CONTRIBUTING.md">🤝 参与贡献</a>
+        <a href="https://myqiji.github.io/zhichandun/">🌐 官方网站</a>
+    </div>
+    <div class="footer">
+        <p>师门™ 出品 | CC-BY-SA-4.0 开源协议 | 存证溯源：师门™ 原创</p>
+    </div>
+</div>
+</body>
+</html>
